@@ -6,7 +6,17 @@
 <title>CK Free 8 day email course form</title>
 <body>
     <div id="ck_form_container"></div>
+
     <script async data-uid="e4fb941d47" src="https://dannylieberman.ck.page/e4fb941d47/index.js"></script>
-<!--            <a data-formkit-toggle="e4fb941d47" href="https://dannylieberman.ck.page/e4fb941d47">Get the course</a>-->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      var overlay = document.querySelector('.seva-overlay, .formkit-overlay');
+      if (overlay) {
+          overlay.setAttribute('data-active', 'true');
+      }
+  });
+</script>
+
 </body>
 </html>
